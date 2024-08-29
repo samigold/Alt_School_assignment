@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color:red;
+    margin-top: 0;
+    padding-top: 21.44px;
+}
+
+header{
+    background-color: lightgray;
+}
+
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+a{
+    text-decoration:none;
+}
+
+header,main,footer{
+    padding: 0 3%;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly; /* Distribute space between items */
+    align-items: center; /* Align items vertically */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+
+.center{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copywright{
+    margin: 0;
+    font-style: italic;
+    font-weight:bold;
+}

@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+header{
+    padding: 0 3%;
+    background-color: lightgray;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration:none;
+}
+
+h1{
+    color:red;
+    margin-top: 0;
+    padding-top: 21.44px;
+}
+
+.btn-sign-up{
+    font-size: 20px;
+}
+
+label{
+    display: block;
+}
+
+input,select{
+    display: block;
+    padding:16px 24px 16px 10px;
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+}
+
+input:hover{
+    outline:1px solid #4096ff;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly; /* Distribute space between items */
+    align-items: center; /* Align items vertically */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.btn-return{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-return ul{
+    list-style-type: none;
+}
+
+.desktop-only{
+    display:none;
+}
+
+.center{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alt-logo{
+    margin-bottom: 20px;
+}
+
+.alt-login{
+    margin-bottom: 16px;
+}
+
+.form-container{
+    width:90%;
+    margin: 0 auto;
+}
+
+.form-group{
+    margin-bottom: 30px;
+}
+
+.form-text{
+    color: #85888D;
+    margin-bottom: 30px;
+}
+
+.link{
+    color: #0367F2;
+    text-decoration: none;
+}
+
+.footer-link{
+    color: #2054D2;
+    text-decoration: none;
+}
+
+.button{
+    width:100%;
+    padding:10px 0;
+    border-radius: 6px;
+    background-color: #6A6FF5;
+    color:white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-arrow{
+    margin-left: 20px;
+}
+
+.alt-desc{
+    font-size: 35px;
+}
+
+
+
+@media screen and (min-width: 595px) {
+   
+    .form-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:25px;
+    } 
+
+    .sign-in{
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .brown{
+        background-color: #FFFCF8;
+        width:47%;
+        display: flex;
+        align-items: center;
+    }
+
+    .desktop-only{
+        display:block;
+        text-align: center;
+    }
+
+    .form{
+        width:53%;
+        padding: 40px;
+    }
+
+    .alt-logo{
+        display:none;
+    }
+
+    .flex{
+        display:flex;
+    }
+    
+    form{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    form{
+        width: 75%;
+    }
+}
